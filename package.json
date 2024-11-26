@@ -1,5 +1,5 @@
 {
-  "name": "Woodchuck Weather",
+  "name": "weatherscan",
   "description": "weatherscan emulator",
   "scripts": {
     "cors": "node ./webroot/js/cors.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davenport651/WoodchuckWeather.git"
+    "url": "git+https://github.com/Jessecar96/Weatherscan.git"
   },
   "dependencies": {
     "cors-anywhere": "^0.4.4",
