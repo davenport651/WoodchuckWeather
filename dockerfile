@@ -10,7 +10,7 @@ RUN cd Weatherscan && npm install --production
 
 CMD sed -i "s/var api_key = 'YOUR_API_KEY'/var api_key = $apikey/" Weatherscan/webroot/js/config.js
 CMD sed -i "s/var map_key = 'YOUR_API_KEY'/var api_key = $mapkey/" Weatherscan/webroot/js/config.js
-CMD cd Weatherscan && npm start
+CMD cd WoodchuckWeather && npm start
 
 EXPOSE 8080/tcp
 EXPOSE 8081/tcp
